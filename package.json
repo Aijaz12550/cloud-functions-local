@@ -1,8 +1,11 @@
 {
   "name": "cloud-functions-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This project is about to manage all the areas about cloud functions, like local testing, code quality etc",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "bin": {
+    "cloud-functions-manager":"dist/main.js"
+  },
   "scripts": {
     "test": "npm run test",
     "start": "node dist/main"
