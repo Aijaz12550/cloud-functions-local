@@ -1,4 +1,6 @@
 import * as fs from "fs";
+import * as dotenv from 'dotenv' 
+dotenv.config({path:"../../../test.env"})
 
 let args = process.argv
 

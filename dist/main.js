@@ -24,6 +24,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs = __importStar(require("fs"));
+const dotenv = __importStar(require("dotenv"));
+dotenv.config({ path: "../../../test.env" });
 let args = process.argv;
 let file_path = args[2];
 console.log("hello world", args);
