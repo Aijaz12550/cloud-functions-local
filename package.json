@@ -1,0 +1,26 @@
+{
+  "name": "cloud-functions-manager",
+  "version": "1.0.0",
+  "description": "This project is about to manage all the areas about cloud functions, like local testing, code quality etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node dist/main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cloud-functions-manager"
+  },
+  "keywords": [
+    "Lambda",
+    "cloud",
+    "functions"
+  ],
+  "author": "M. Aijaz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}

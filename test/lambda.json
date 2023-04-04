@@ -1,0 +1,4 @@
+{
+    "event": {"name": "hello"},
+    "path": "./examples/lambda.js"
+}
